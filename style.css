@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background-color: white;
+}
+h2 {
+  font-size: 4em;
+  color: hotpink;
+  text-align: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+  position: relative;
+}
+button {
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  border-radius: 30px;
+  padding: 10px 0;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  background-color: hotpink;
+  transition: all 0.3s ease-in-out;
+}
+
+button:nth-child(1) {
+  margin-left: -200px;
+}
+
+button:nth-child(2) {
+  background-color: red;
+  margin-right: -200px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+img {
+  display: block;
+  margin: auto;
+}
